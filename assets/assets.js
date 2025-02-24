@@ -1,5 +1,7 @@
 import user_image from './user-image.png';
 import code_icon from './code-icon.png';
+import nameLogo from './nameLogo.jpg';
+import profile from './profile.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
@@ -73,7 +75,9 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    nameLogo,
+    profile
 };
 
 export const workData = [
