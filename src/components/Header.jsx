@@ -15,7 +15,7 @@ const Header = () => {
             I'm a Full Stack Developer from India
         </h1>
         <p className='max-w-2xl mx-auto font-Ovo'>
-            I am an Emerging Full Stack Developer from India, eager to work and deep-dive into Real World Projects.
+        I'm an emerging Full Stack Developer from India, eager to explore real-world projects and build impactful solutions.
         </p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <a 

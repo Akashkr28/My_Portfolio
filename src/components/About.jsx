@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className='flex-1'>
             <p className='mb-10 max-w-2xl font-Ovo'>
-                I am an Emerging Full Stack Developer from India, eager to work and deep-dive into Real World Projects.
+            I'm Akash Kumar Singh, a Full Stack Web Developer skilled in ReactJS, NextJS, Node.js, and databases. With an MBA and a background in accounting, I blend analytical thinking with tech to build scalable, user-friendly applications.
             </p>
             <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                 {infoList.map(({icon, iconDark, title, description}, index) => (
