@@ -38,8 +38,14 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import userNew from './userNew.jpeg';
+import settings from './settings.png';
+import data_storage from './data_storage.png';
+import user_experience from './user_experience.png';
 
 export const assets = {
+    user_experience,
+    data_storage,
+    settings,
     user_image,
     code_icon,
     code_icon_dark,
@@ -106,10 +112,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Full Stack Web Development', description: 'Building responsive, scalable web applications using React, Next.js, Node.js, and MongoDB....', link: '' },
+    { icon: assets.settings, title: 'Backend Development & API Integration', description: 'Developing secure, efficient backends with Express.js, MongoDB, and third-party API integrations.', link: '' },
+    { icon: assets.user_experience, title: 'Frontend Development & UI Design', description: 'Creating modern, user-friendly interfaces with React, NextJS, Tailwind CSS, and ShadCN UI', link: '' },
+    { icon: assets.data_storage, title: 'Website Deployment & Optimization', description: 'eploying apps on AWS, Vercel, and optimizing performance for better user experience.', link: '' },
 ]
 
 export const infoList = [
