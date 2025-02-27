@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Services = () => {
   return (
-    <div id='services' className='w-full px-[12%] py-10 scroll mt-10'>
+    <div id='services' className='w-full px-[12%] py-10 scroll-mt-20'>
         <h4 className='text-center mb-2 text-lg font-Ovo'>Work I Offer</h4>
         <h2 className='text-center text-5xl font-Ovo'>My Services</h2>
 
