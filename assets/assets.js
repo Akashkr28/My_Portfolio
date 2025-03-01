@@ -41,8 +41,12 @@ import userNew from './userNew.jpeg';
 import settings from './settings.png';
 import data_storage from './data_storage.png';
 import user_experience from './user_experience.png';
+import name from './name.png';
+import dark_name from './dark_name.png';
 
 export const assets = {
+    name,
+    dark_name,
     user_experience,
     data_storage,
     settings,
