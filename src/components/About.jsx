@@ -53,7 +53,7 @@ const About = ({isDarkMode}) => {
             </p>
 
             <motion.ul 
-              className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'
+              className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl '
               initial={{opacity: 0}}
               whileInView={{opacity: 1}}
               transition={{duration: 0.8, delay: 1}}
@@ -66,31 +66,6 @@ const About = ({isDarkMode}) => {
                         <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-3'/>
                         <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>{title}</h3>
                         <p className='text-gray-600 text-sm dark:text-white/80'>{description}</p>
-                    </motion.li>
-                ))}
-            </motion.ul>
-
-            <motion.h4 
-              className='my-6 text-gray-700 font-Ovo dark:text-white/80'
-              initial={{y: 20, opacity: 0}}
-              whileInView={{y: 0, opacity: 1}}
-              transition={{delay: 1.3, duration: 0.5}}
-              >
-                Tools I use
-            </motion.h4>
-
-            <motion.ul
-              initial={{opacity: 0}}
-              whileInView={{opacity: 1}}
-              transition={{delay: 1.5, duration: 0.6}}
-              className='flex items-center gap-3 sm:gap-5'
-            >
-                {toolsData.map((tool, index) => (
-                    <motion.li 
-                      whileHover={{scale: 1.1}}
-                      className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:translate-y-1 duration-500'
-                        key={index}>
-                        <Image src={tool} alt='tool' className='w-5 sm:w-7'/>
                     </motion.li>
                 ))}
             </motion.ul>
