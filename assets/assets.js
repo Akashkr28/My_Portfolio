@@ -43,8 +43,22 @@ import data_storage from './data_storage.png';
 import user_experience from './user_experience.png';
 import name from './name.png';
 import dark_name from './dark_name.png';
+import css from './css.png';
+import physics from './physics.png';
+import typescript from './typescript.png';
+import javascript from './javascript.png';
+import html5 from './html5.png';
+import nextjs from './nextjs.png';
+import Tailwind_CSS from './Tailwind_CSS.png';
 
 export const assets = {
+    nextjs,
+    Tailwind_CSS,
+    html5,
+    javascript,
+    typescript,
+    physics,
+    css,
     name,
     dark_name,
     user_experience,
@@ -129,5 +143,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.javascript, assets.typescript, assets.css, assets.physics, assets.html5, assets.nextjs, assets.Tailwind_CSS
 ];
