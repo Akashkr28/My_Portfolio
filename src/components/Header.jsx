@@ -49,7 +49,7 @@ const Header = () => {
                 className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
             >Contact Me <Image src={assets.right_arrow_white} alt='' className='w-4'/></motion.a>
             <motion.a 
-                href="../assets/public/MY_RESUME.pdf" download
+                href="/MY_RESUME.pdf" download
                 initial={{y: 30, opacity: 0}}
                 whileInView={{y: 0, opacity: 1}}
                 transition={{duration: 0.6, delay: 1.2}}
